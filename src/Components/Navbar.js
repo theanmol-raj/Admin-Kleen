@@ -13,7 +13,7 @@ function Navbar({act,Set}) {
     {icon:<CategoryIcon fontSize='inherit' /> ,name:'Category'},
     {icon:<SubjectIcon fontSize='inherit' /> ,name:'SubCategory'}]
     return (
-        <div>
+        <div className={` h-screen md:h-full`}>
             <div className=' p-8'>
                 <button onClick={()=>{Set(0)}}>
                 <img alt='' className=' mt-4 w-11/12 mx-auto h-5/6' src='https://automobile-admin.gamingpandastudios.com/assets/images/logo/logo.png' />

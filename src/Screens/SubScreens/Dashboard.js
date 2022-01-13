@@ -15,7 +15,7 @@ function Dashboard() {
     </div>)
 
     return (
-        <div className='  h-full bg-indigo-50'>
+        <div className='  h-screen bg-indigo-50'>
             <hr className=' pt-12' />
             <div className=' ml-8  '>
                 <div>

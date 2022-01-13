@@ -12,10 +12,12 @@ import SubCategory from './SubScreens/SubCategory'
 function Homescreen() {
     const [active ,SetActive] =useState(5)
     const screenArray =[<Dashboard />,<Users />,<ContactMessage/>,<NewBlog />,<SubscriptionPlans />,<AddCourse />,<Category />,<SubCategory />]
+
+    
     return (
-        <div className='flex h-screen'>
-            <div className='w-96 bg-green-100'>
-                <Navbar act={active} Set={SetActive} />
+        <div className='flex'>
+            <div className={`fixed md:relative z-50 md:w-96 bg-green-100 `}>
+                 <Navbar  act={active} Set={SetActive} />
             </div>
             <div className='w-full'>
                 {screenArray[active]}

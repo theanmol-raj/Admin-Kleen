@@ -11,7 +11,7 @@ function AddCourse() {
         { name: 'Hellen Schmidt' },
       ]
     return (
-        <div className='  h-full bg-indigo-50'>
+        <div className='  h-screen bg-indigo-50'>
             <hr className=' pt-12' />
             <div className='grid gap-4 mx-12  grid-cols-1 lg:grid-cols-2'>
                 <div>
