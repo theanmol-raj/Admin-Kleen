@@ -4,20 +4,20 @@ function Category() {
     return (
         <div className='h-screen bg-indigo-50'>
             <hr className=' pt-12' />
-            <div className='grid gap-4 mx-12  grid-cols-1 lg:grid-cols-2'>
-                <div>
-                <p className=' capitalize customtextcolor font-semibold text-3xl'>Add a new Category</p>
-                <p className='capitalize text-gray-400 my-3 text-lg '>Use The Below Form To Add A New Category</p>
+            <div className='grid gap-4 mx-4 lg:mx-12  grid-cols-1 lg:grid-cols-2'>
+                <div className=''>
+                <p className=' capitalize customtextcolor font-semibold text-lg lg:text-3xl'>Add a new Category</p>
+                <p className='capitalize text-gray-400 my-3 text-sm lg:text-lg '>Use The Below Form To Add A New Categoryy</p>
                 <div className=' bg-white px-8 rounded-lg py-4'>
-                <p className=' capitalize customtextcolor font-semibold pt-2 text-lg'>Add A New Category</p>
+                <p className=' capitalize customtextcolor font-semibold pt-2 text-sm   lg:text-lg'>Add A New Category</p>
                 <form className=' w-full pt-16' >
                     
                     <div className='w-full flex pb-6 justify-between'>
-                        <p className='w1/3 text-gray-500 py-1 text-lg '>Category</p>
+                        <p className='w1/3 text-gray-500 py-1 text-sm lg:text-lg '>Category</p>
                         <input className=' w-2/3  relative  py-2 pl-3 pr-10 text-left bg-white rounded-lg shadow-md cursor-default focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-gray-400 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-sm' />
                     </div>
                     <div className='w-full flex pb-6 justify-between'>
-                        <p className='w1/3 text-gray-500 py-1 text-lg '>Category Description</p>
+                        <p className='w1/3 text-gray-500 py-1 text-sm lg:text-lg '>Category Description</p>
                         <textarea rows={4} className=' w-2/3  relative py-2 pl-3 pr-10 text-left bg-white rounded-lg shadow-md cursor-default focus:outline-none focus-visible:ring-2 focus-visible:ring-opacity-75 focus-visible:ring-white focus-visible:ring-offset-gray-400 focus-visible:ring-offset-2 focus-visible:border-indigo-500 sm:text-sm' />
                     </div>
                     <div className='w-full flex pb-8 pt-12 flex-row '>

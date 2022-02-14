@@ -17,10 +17,10 @@ function Users() {
             <div className='flex w-full flex-row'>
                 <div className='w-full px-8'>
                <div className='flex flex-row justify-between'>
-               <p className=' capitalize customtextcolor font-semibold text-3xl'>List Of All Contact Messages</p>
-               <p className=' font-normal py-2 float-right'><span className='customtextcolor font-semibold'>Dashboard</span> / Contact Messages</p>
+               <p className=' capitalize customtextcolor font-semibold text-lg xl:text-3xl'>List Of All Contact Messages</p>
+               <p className=' text-sm lg:text-base font-normal py-2 float-right'><span className='customtextcolor font-semibold'>Dashboard</span> / Contact Messages</p>
                </div>
-                <p className='capitalize text-gray-400 my-3 text-lg '>Below are list of al messages sent by the users</p>
+                <p className='capitalize text-gray-400 my-3 text-sm lg:text-lg '>Below are list of al messages sent by the users</p>
                 <div className=' bg-white px-8 rounded-lg py-4'>
                 <p className=' capitalize customtextcolor font-semibold pt-2 text-lg'>All Registered Users</p>
                 <div className=' flex flex-row justify-between'>

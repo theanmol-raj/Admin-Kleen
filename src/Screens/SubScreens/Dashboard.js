@@ -15,14 +15,14 @@ function Dashboard() {
     </div>)
 
     return (
-        <div className='  h-screen bg-indigo-50'>
+        <div className='h-screen bg-indigo-50'>
             <hr className=' pt-12' />
-            <div className=' ml-8  '>
+            <div className=' mx-4 xl:mr-0 xl:ml-8  '>
                 <div>
-                <p className=' capitalize customtextcolor font-semibold text-3xl'>Create A New Blog</p>
-                <p className='capitalize text-gray-400 my-3 text-lg '>Use The Below Form To Create A New BLog   </p>
+                <p className=' capitalize customtextcolor font-semibold text-lg lg:text-3xl'>Create A New Blog</p>
+                <p className='capitalize text-gray-400 my-3 text-sm lg:text-lg '>Use The Below Form To Create A New BLog   </p>
                 <div className=' flex w-full flex-col mr-8 lg:mr-0 lg:flex-row'>
-                <div className=' grid  grid-cols-2 lg:w-4/6 gap-5 lg:grid-cols-4'>
+                <div className=' grid grid-cols-1  md:grid-cols-1 lg:w-4/6 lg:mx-auto  gap-5 lg:grid-cols-4'>
                  {Data.map((x,y)=> <Card key={y} item={{x,y}} />)}
 
                 </div>
